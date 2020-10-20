@@ -1,12 +1,9 @@
 import React from "react";
+import Counter from "./components/Counter";
 import "./App.css";
 
 const App = () => {
-  return (
-    <>
-      <h1>Redux Study!!</h1>
-    </>
-  );
+  return <Counter />;
 };
 
 export default App;
