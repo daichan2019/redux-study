@@ -1,12 +1,9 @@
 import React from "react";
+import Todo from "./components/Todo";
 import "./App.css";
 
 const App = () => {
-  return (
-    <>
-      <h1>Redux Study!!</h1>
-    </>
-  );
+  return <Todo />;
 };
 
 export default App;
